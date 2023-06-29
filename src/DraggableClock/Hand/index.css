@@ -1,0 +1,18 @@
+.minute-hand,
+.second-hand {
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  top: 49%;
+  position: absolute;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+}
+
+.second-hand {
+  background-color: green;
+}
+
+.minute-hand {
+  background-color: blueviolet;
+}
